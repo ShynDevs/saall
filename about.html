@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/icon/logo.png" type="image/svg+xml">
+    <title>SantehTAT</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/component/About/about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <style>
+      .video {
+        width: 100%; 
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: #000000;
+        position: fixed;
+        margin: 0 auto;
+        top: 0;
+        height: 100vh;
+        text-align: center;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        display: none;
+
+      }
+
+      .video video {
+        width: 100%;
+        height: 100vh;
+      }
+
+      .video img {
+        width: 4%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+      }
+
+      .play_video {
+        width: 120px;
+        height: 120px;
+        border: solid 2px var(--primary-color);
+        margin: 0 auto;
+        border-radius: 25px;
+        cursor: pointer;
+        color: var(--primary-color);
+        background-color: var(--primary-color);
+        transition: all ease-in 0.2s;
+        position: relative;
+      }
+
+      .play_video:hover {
+        scale: 1.1;
+        color: var(--white);
+      }
+
+      .video-play-button {
+        display: block;
+        width: 104px;
+        height: 104px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -52px 0 0 -52px;
+        cursor: pointer;
+      }
+
+      .video-play-outline {
+        display: block;
+        width: 96px;
+        height: 96px;
+        border: #FFF 4px solid;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        opacity: .7;
+        transition: all 0.5s;
+      }
+
+      .video-play-circle {
+        stroke-dasharray: 315;
+        stroke-dashoffset: 315;
+        transition: stroke-dashoffset 0.5s;
+      }
+
+      .video-play-button svg {
+        display: block;
+        transform: rotate(-90deg);
+        transition: transform 0.3s;
+      }
+
+      .video-play-button:hover .video-play-circle {
+        stroke-dashoffset: 0;
+      }
+
+      .video-play-button:active .video-play-outline {
+        transform: scale(1.5);
+        opacity: 0;
+      }
+
+      .video-play-button:active svg {
+        transform: rotate(-90deg) scale(.95);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header">
+        <div class="head">
+          <button class="open-menu">
+            <img src="./public/icon/menu.svg" alt="">
+          </button>
+
+          <a href="index.html">
+            <div style="width: 180px; height: 60px;">
+              <img src="./public/icon/logo.PNG" alt="" width="100%" height="100%" style="object-fit: cover;">
+            </div>
+          </a>
+
+          <a href="basket.html">
+            <i class="fa-solid fa-basket-shopping" style="color: black;"></i>
+            <div class="count">0</div>
+          </a>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="order.html">Как заказать?</a></li>
+          <li><a href="contact.html">Магазины</a></li>
+          <li><a href="about.html">О компании</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="menu">
+      <div class="menu-head">
+        <a href="index.html">
+          <div style="width: 180px; height: 60px;">
+            <img src="./public/icon/logo2.png" alt="" width="100%" height="100%" style="object-fit: cover;">
+          </div>
+        </a>
+
+        <button class="close-menu">
+          <img src="./public/icon/x-mark.svg" alt="">
+        </button>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="order.html">Как заказать?</a></li>
+          <li><a href="contact.html">Магазины</a></li>
+          <li><a href="about.html">О компании</a></li>
+        </ul>
+      </nav>
+
+      <a href="" class="copyright">© 2024 MBD</a>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="about">
+          <div>
+            <img src="./public/icon/logo.png" alt="">
+          </div>
+
+          <div>
+            <h3>Только самые востребованные с 2020 года</h3>
+            <p>Мы на рынке с 2020 года, и у нас есть оффлайн база довольных клиентов. И мы решили выйти в онлайн чтобы радовать еще больше людей. Мы ценим каждого нашего клиента и максимально стараемся оказать им услуги высокого качества.</p>
+          </div>
+
+          <div>
+            <h3>Качество и надежность в каждом продукте</h3>
+            <p>Мы гордимся тем, что предоставляем нашим клиентам только самые высококачественные и сертифицированные продукты от ведущих отечественных и зарубежных производителей. Наш ассортимент насчитывает более 2000 наименований товаров, созданных на современных высокотехнологичных производствах, что гарантирует не только надежность, но и долговечность продукции.</p>
+          </div>
+
+          <div>
+            <img src="https://avatars.mds.yandex.net/i?id=4c1fb2e134b6302b3fef6885efcac1e3423534a4-12150810-images-thumbs&n=13" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="display: none;">
+      <div class="container">
+        <div class="about-video-block">
+          <button class="play_video">
+            <a class="video-play-button">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
+                <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10"
+                  d="M26,35h52L52,81L26,35z" />
+                <circle class="video-play-circle" fill="none" stroke="white" stroke-width="4" stroke-miterlimit="10"
+                  cx="52" cy="52" r="50" />
+              </svg>
+            </a>
+          </button>
+  
+          <div class="video">
+            <video height="80%" width="70%" controls id="videoPlayer">
+              <source id="videoSource" src="./public/video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img src="./public/icon/close.png" alt="" class="close">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Наши ценности</h2>
+        <div class="service">
+          <div>
+            <span>1</span>
+            <h3>Качество и Надежность Продукции</h3>
+            <p>Компания придерживается принципа предоставления высококачественных и сертифицированных продуктов от ведущих отечественных и зарубежных производителей. Это подчеркивает стремление к предоставлению клиентам надежных и долговечных продуктов.</p>
+          </div>
+
+          <div>
+            <span>2</span>
+            <h3>Профессионализм и Признание</h3>
+            <p>С упоминанием "с признанием качества и профессионализма," компания подчеркивает свой опыт и высокий стандарт обслуживания клиентов в течение многих лет. Это говорит о стремлении к высокому профессиональному уровню в своей отрасли.</p>
+          </div>
+
+          <div>
+            <span>3</span>
+            <h3>Охват и Лидерство</h3>
+            <p>Упоминание о том, что компания стала лидером в отрасли и имеет филиалы с офисами и складами по всему Казахстану, подчеркивает ценность охвата и лидерства. Компания стремится быть присутствующей и востребованной в ключевых регионах.</p>
+          </div>
+
+          <div>
+            <span>4</span>
+            <h3>Ориентация на Клиента и Процесс</h3>
+            <p>Описание ценностей включает этапы планирования, анализа, дизайна, разработки, тестирования и отладки. Это говорит о фокусе на потребностях клиента, профессиональном проектировании, разработке и обеспечении безупречной работы продукции.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer">
+        <nav>
+          <ul>
+            <li>
+              <strong>Компания</strong>
+              <ul>
+                <li>
+                  <div>
+                    <p>Найдите ближайший к вам магазин.</p>
+                    <a href="">Посмотреть наши магазины.</a>
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <p class="footer-info">+7 747 989 4879</p>
+                    <p class="footer-info">info@satypal.kz</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <strong>Главные страницы</strong>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="order.html">Как заказать?</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <strong>Информации</strong>
+              <ul>
+                <li><a href="">Доставка</a></li>
+                <li><a href="">Оплата</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <h2>Свяжитесь с нами</h2>
+              <p>Введите свой адрес электронной почты ниже, чтобы быть первым, кто узнает о новых коллекциях и запусках продуктов.</p>
+              <div class="footer-email">
+                <input type="email" placeholder="Введите вашу почту">
+                <button>Подписаться</button>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="foot">
+          <a href="index.html">
+            <div style="width: 180px; height: 60px;">
+              <img src="./public/icon/logo2.PNG" alt="" width="100%" height="100%" style="object-fit: cover;">
+            </div>
+          </a>
+
+          <div>
+            <a href="https://mbdev.kz/" style="font-weight: 500;"> © 2024 Разработано в <a href="https://mbdev.kz/" style="font-weight: 900; color: var(--primary-color); text-decoration: double; ">MBDev</a>  </a>
+            <button class="social-contact">
+              <a href="https://wa.link/lntz6f">
+                <img src="./public/icon/whatsapp.svg" alt="">
+              </a>
+            </button>
+            <button class="social-contact">
+              <a href="">
+                <img src="./public/icon/instagram.svg" alt="">
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./src/component/About/about.js"></script>
+    <script src="https://kit.fontawesome.com/5a93b877c6.js" crossorigin="anonymous"></script>
+    <script src="./src/script/archscript.js"></script>
+  </body>
+</html>

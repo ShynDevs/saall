@@ -1,0 +1,29 @@
+#why{
+    h2 {
+      text-align: center;
+    }
+  
+    h3 {
+      padding-bottom: 30px;
+    }
+  
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+  
+    li {
+      width: 350px;
+      min-height: 142px;
+      border-radius: 16px;
+      text-align: center;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    img {
+      width: 100px;
+    }
+  }

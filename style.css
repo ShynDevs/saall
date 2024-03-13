@@ -1,0 +1,15 @@
+@import url("./src/style/base.css");
+@import url("./src/component/header.css");
+@import url("./src/component/footer.css");
+@import url("./src/style/mutasim.css");
+
+@import url("./src/style/title.css");
+@import url("./src/style/why.css");
+@import url("./src/style/ass.css");
+@import url("./src/style/road.css");
+@import url("./src/style/more.css");
+@import url("./src/style/brand.css");
+@import url("./src/style/cart.css");
+@import url("./src/style/order.css");
+
+@import url("./src/component/Product/product.css");

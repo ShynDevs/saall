@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/icon/logo.png" type="image/svg+xml">
+    <title>SantehTAT</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/component/Basket/basket.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header">
+        <div class="head">
+          <button class="open-menu">
+            <img src="./public/icon/menu.svg" alt="">
+          </button>
+
+          <a href="index.html">
+            <div style="width: 180px; height: 60px;">
+              <img src="./public/icon/logo.png" alt="" width="100%" height="100%" style="object-fit: cover;">
+            </div>
+          </a>
+
+          <a href="basket.html">
+            <i class="fa-solid fa-basket-shopping" style="color: black;"></i>
+            <div class="count">0</div>
+          </a>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="order.html">Как заказать?</a></li>
+          <li><a href="contact.html">Магазины</a></li>
+          <li><a href="about.html">О компании</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="menu">
+      <div class="menu-head">
+        <a href="index.html">
+          <div style="width: 180px; height: 60px;">
+            <img src="./public/icon/logo2.png" alt="" width="100%" height="100%" style="object-fit: cover;">
+          </div>
+        </a>
+
+        <button class="close-menu">
+          <img src="./public/icon/x-mark.svg" alt="">
+        </button>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="order.html">Как заказать?</a></li>
+          <li><a href="contact.html">Магазины</a></li>
+          <li><a href="about.html">О компании</a></li>
+        </ul>
+      </nav>
+
+      <a href="" class="copyright">© 2024 MBD</a>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="title">
+          <h2>Каталог</h2>
+          <div>
+            <input id="search-input" type="search" placeholder="Поиск">
+            <button>
+              <?xml version="1.0" ?>
+              <svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                <title/>
+                <path d="M456.69,421.39,362.6,327.3a173.81,173.81,0,0,0,34.84-104.58C397.44,126.38,319.06,48,222.72,48S48,126.38,48,222.72s78.38,174.72,174.72,174.72A173.81,173.81,0,0,0,327.3,362.6l94.09,94.09a25,25,0,0,0,35.3-35.3ZM97.92,222.72a124.8,124.8,0,1,1,124.8,124.8A124.95,124.95,0,0,1,97.92,222.72Z" fill="var(--white)"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <hr>
+
+        <div class="block">
+          <div class="categories"></div>
+          <div class="products catalog-products"></div>
+          <div id="noItemFoundMessage" style="display: none;">
+            <h1>Ничего не найдено :(</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer">
+        <nav>
+          <ul>
+            <li>
+              <strong>Компания</strong>
+              <ul>
+                <li>
+                  <div>
+                    <p>Найдите ближайший к вам магазин.</p>
+                    <a href="">Посмотреть наши магазины.</a>
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <p class="footer-info">+7 747 989 4879</p>
+                    <p class="footer-info">info@satypal.kz</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <strong>Главные страницы</strong>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="order.html">Как заказать?</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <strong>Информации</strong>
+              <ul>
+                <li><a href="">Доставка</a></li>
+                <li><a href="">Оплата</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <h2>Свяжитесь с нами</h2>
+              <p>Введите свой адрес электронной почты ниже, чтобы быть первым, кто узнает о новых коллекциях и запусках продуктов.</p>
+              <div class="footer-email">
+                <input type="email" placeholder="Введите вашу почту">
+                <button>Подписаться</button>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="foot">
+          <a href="index.html">
+            <div style="width: 180px; height: 60px;">
+              <img src="./public/icon/logo2.PNG" alt="" width="100%" height="100%" style="object-fit: cover;">
+            </div>
+          </a>
+
+          <div>
+            <a href="https://mbdev.kz/" style="font-weight: 500;"> © 2024 Разработано в <a href="https://mbdev.kz/" style="font-weight: 900; color: var(--primary-color); text-decoration: double; ">MBDev</a>  </a>
+            <button class="social-contact">
+              <a href="https://wa.link/lntz6f">
+                <img src="./public/icon/whatsapp.svg" alt="">
+              </a>
+            </button>
+            <button class="social-contact">
+              <a href="">
+                <img src="./public/icon/instagram.svg" alt="">
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/component/Product/product.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://kit.fontawesome.com/5a93b877c6.js" crossorigin="anonymous"></script>
+    <script src="./src/script/archscript.js"></script>
+  </body>
+</html>
