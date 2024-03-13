@@ -12,7 +12,7 @@ export const products = [
     parentCategoryID: 1,
     categoryID: null,
     subCategoryID: null,
-    path: 'powerball.html'
+    path: 'nochnik.html'
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const products = [
     parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
-    path: 'powerball.html'
+    path: 'nochnik.html'
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const products = [
     parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
-    path: 'powerball.html'
+    path: 'nochnik.html'
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const products = [
     parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
-    path: 'powerball.html'
+    path: 'nochnik.html'
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const products = [
     parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
-    path: 'powerball.html'
+    path: 'nochnik.html'
   },
 ];
 
