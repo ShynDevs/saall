@@ -61,10 +61,10 @@ export const products = [
   },
   {
     id: 5,
-    name: 'Мини принтер',
-    price: '8500',
+    name: 'Космонавтов светильник ночник звездное небо С блютуз колонкой с пультом управления',
+    price: '10500',
     unit: 'шт',
-    image: 'https://avatars.mds.yandex.net/i?id=16b1e541f6a5229c85e7101b9cb4519c2440c7b0-5669278-images-thumbs&n=13',
+    image: 'https://avatars.mds.yandex.net/i?id=277f5e7834149b8823a14da2bdc9d47a3d29655f-10836825-images-thumbs&n=13',
     hasDiscount: true,
     isNew: true,
     bestseller: false,
