@@ -74,6 +74,51 @@ export const products = [
     subCategoryID: null,
     path: 'nochnik.html'
   },
+  {
+    id: 6,
+    name: 'Звездное небо с блютуз колонкой',
+    price: '9500',
+    unit: 'шт',
+    image: 'https://avatars.mds.yandex.net/i?id=bbe5678f220e069ad3d2d33f024e208b08bd3295-10812288-images-thumbs&ref=rim&n=33&w=248&h=250',
+    hasDiscount: true,
+    isNew: true,
+    bestseller: false,
+    quantity: 1,
+    parentCategoryID: 3,
+    categoryID: null,
+    subCategoryID: null,
+    path: 'nochnik.html'
+  },
+  {
+    id: 6,
+    name: 'Светильники ночники',
+    price: '9500',
+    unit: 'шт',
+    image: 'https://avatars.mds.yandex.net/i?id=05ab983eb085e0bab79d6e73a40bb759976836a4-9870747-images-thumbs&ref=rim&n=33&w=250&h=250',
+    hasDiscount: true,
+    isNew: true,
+    bestseller: false,
+    quantity: 1,
+    parentCategoryID: 5,
+    categoryID: null,
+    subCategoryID: null,
+    path: 'nochnik.html'
+  },
+  {
+    id: 6,
+    name: 'Кухонная щетка для мытья посуды с дозатором ',
+    price: '3000',
+    unit: 'шт',
+    image: 'https://m.media-amazon.com/images/I/41JKm9vYfSL._SL500_.jpg',
+    hasDiscount: true,
+    isNew: true,
+    bestseller: false,
+    quantity: 1,
+    parentCategoryID: 6,
+    categoryID: null,
+    subCategoryID: null,
+    path: 'nochnik.html'
+  },
 ];
 
 
@@ -97,6 +142,16 @@ export const parentCategory = [
     id: 4,
     name: 'Для детей',
     image: "https://avatars.mds.yandex.net/i?id=ab004cd1cef19238aae2950672608f68d8e37bda-10703615-images-thumbs&n=13"
+  },
+  {
+    id: 5,
+    name: 'Для рамадана',
+    image: "https://avatars.mds.yandex.net/i?id=7e8949544c39368194731338de926a9e38b665af-11389617-images-thumbs&n=13"
+  },
+  {
+    id: 6,
+    name: 'хоз товары',
+    image: "https://avatars.mds.yandex.net/i?id=985311db5e7c82685ab25ead7a36de0f71c52ede-12190079-images-thumbs&n=13"
   },
 ]
 
