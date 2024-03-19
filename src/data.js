@@ -119,6 +119,22 @@ export const products = [
     subCategoryID: null,
     path: 'nochnik.html'
   },
+
+  {
+    id: 7,
+    name: 'ночник',
+    price: '9500',
+    unit: 'шт',
+    image: '../public/image/product/nochnik.jpg',
+    hasDiscount: true,
+    isNew: true,
+    bestseller: false,
+    quantity: 1,
+    parentCategoryID: 5,
+    categoryID: null,
+    subCategoryID: null,
+    path: 'nochnik.html'
+  },
 ];
 
 
@@ -177,115 +193,7 @@ export const parentCategory = [
 export const category = [
   {
     id: 1,
-    name: 'Напольные',
-  },
-  {
-    id: 2,
-    name: 'Настенные',
-  },
-  {
-    id: 3,
-    name: 'Бак расширительный',
-  },
-  {
-    id: 4,
-    name: 'Группа безовасности',
-  },
-  {
-    id: 5,
-    name: 'Гидрострелки и коллекторы',
-  },
-  {
-    id: 6,
-    name: 'Трубы для теплого пола',
-  },
-  {
-    id: 7,
-    name: 'Коллекторы для теплого пола',
-  },
-  {
-    id: 8,
-    name: 'Алюминиевые',
-  },
-  {
-    id: 9,
-    name: 'Биметаллические',
-  },
-  {
-    id: 10,
-    name: 'Трубы',
-  },
-  {
-    id: 11,
-    name: 'ППР фитинги',
-  },
-  {
-    id: 12,
-    name: 'Канализационные трубы',
-  },
-  {
-    id: 13,
-    name: 'Канализационные фитинги',
-  },
-  {
-    id: 14,
-    name: 'Трапы',
-  },
-  {
-    id: 15,
-    name: 'Жироуловители',
-  },
-  {
-    id: 16,
-    name: 'Электрические',
-  },
-  {
-    id: 17,
-    name: 'Косвенные',
-  },
-  {
-    id: 18,
-    name: 'Насосное оборудование',
-  },
-  {
-    id: 19,
-    name: 'Насосные станции',
-  },
-  {
-    id: 20,
-    name: 'Насосные станции многоступенчатые',
-  },
-  {
-    id: 21,
-    name: 'Погружные насосы',
-  },
-  {
-    id: 22,
-    name: 'Скважинные насосы',
-  },
-  {
-    id: 23,
-    name: 'Комплектующие и аксессуары для насосного оборудования',
-  },
-  {
-    id: 24,
-    name: 'Смесители',
-  },
-  {
-    id: 25,
-    name: 'Сифоны',
-  },
-  {
-    id: 26,
-    name: 'Гибкая подводка',
-  },
-  {
-    id: 27,
-    name: 'Шланги',
-  },
-  {
-    id: 28,
-    name: 'Арматура для унитаза',
+    name: 'Нажмите на Все продукты',
   },
 ]
 
@@ -305,7 +213,7 @@ export const subCategory = [
     id: 3,
     name: 'Для душа',
     categoryID: 24
-  },
+  },  
   {
     id: 4,
     name: 'Стойки для душа',
