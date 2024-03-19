@@ -117,7 +117,7 @@ function displayProducts(filteredProducts) {
       </a>
 
           <div class="buy" data-id="${product.id}">
-            <button class="buy-button" aria-label="add to cart">КУПИТЬ</button>
+            <button class="buy-button" aria-label="add to cart">в корзину</button>
           </div>
         </div>
       </div>
