@@ -138,7 +138,7 @@ export const products = [
   {
     id: 8,
     name: 'Мини блендер',
-    price: '8500',
+    price: '7200',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=5f0a7dd646c42efc1c932016ab5f479ba8877aa7-8400759-images-thumbs&n=13',
     hasDiscount: true,
