@@ -148,7 +148,7 @@ export const products = [
     parentCategoryID: 4,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: 'blender.html'
   },
 ];
 
