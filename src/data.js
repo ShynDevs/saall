@@ -122,7 +122,7 @@ export const products = [
 
   {
     id: 7,
-    name: 'ночник',
+    name: 'Ночник декор',
     price: '9500',
     unit: 'шт',
     image: '../public/image/product/nochnik.jpg',
@@ -131,6 +131,21 @@ export const products = [
     bestseller: false,
     quantity: 1,
     parentCategoryID: 5,
+    categoryID: null,
+    subCategoryID: null,
+    path: 'nochnik.html'
+  },
+  {
+    id: 8,
+    name: 'Мини блендер',
+    price: '8500',
+    unit: 'шт',
+    image: 'https://avatars.mds.yandex.net/i?id=5f0a7dd646c42efc1c932016ab5f479ba8877aa7-8400759-images-thumbs&n=13',
+    hasDiscount: true,
+    isNew: true,
+    bestseller: false,
+    quantity: 1,
+    parentCategoryID: 4,
     categoryID: null,
     subCategoryID: null,
     path: 'nochnik.html'
