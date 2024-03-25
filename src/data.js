@@ -5,7 +5,7 @@ export const products = [
     price: '5500',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=35cbbace6105d65fa62d228c790883b845d13cb7-10637298-images-thumbs&n=13',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: true,
     quantity: 1,
@@ -17,10 +17,10 @@ export const products = [
   {
     id: 2,
     name: 'Умный ночник беспроводная зарядка',
-    price: '12990',
+    price: '6500',
     unit: 'шт',
     image: 'https://m.media-amazon.com/images/I/61sjWcZPI7L._AC_UL800_QL65_.jpg',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: true,
     quantity: 1,
@@ -32,10 +32,10 @@ export const products = [
   {
     id: 3,
     name: 'Мини принтер',
-    price: '8500',
+    price: '6500',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=16b1e541f6a5229c85e7101b9cb4519c2440c7b0-5669278-images-thumbs&n=13',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: true,
     quantity: 1,
@@ -50,7 +50,7 @@ export const products = [
     price: '85000',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=6a2d55ac5b50abe1152ab620a2e5f45f286aff33-10299621-images-thumbs&n=13',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: true,
     quantity: 1,
@@ -62,10 +62,10 @@ export const products = [
   {
     id: 5,
     name: 'Космонавтов светильник ночник звездное небо С блютуз колонкой с пультом управления',
-    price: '10500',
+    price: '6000',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=277f5e7834149b8823a14da2bdc9d47a3d29655f-10836825-images-thumbs&n=13',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: false,
     quantity: 1,
@@ -77,10 +77,10 @@ export const products = [
   {
     id: 6,
     name: 'Звездное небо с блютуз колонкой',
-    price: '9500',
+    price: '2800',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=bbe5678f220e069ad3d2d33f024e208b08bd3295-10812288-images-thumbs&ref=rim&n=33&w=248&h=250',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: false,
     quantity: 1,
@@ -92,10 +92,10 @@ export const products = [
   {
     id: 6,
     name: 'Светильники ночники',
-    price: '9500',
+    price: '3000',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=05ab983eb085e0bab79d6e73a40bb759976836a4-9870747-images-thumbs&ref=rim&n=33&w=250&h=250',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: false,
     quantity: 1,
@@ -110,7 +110,7 @@ export const products = [
     price: '3000',
     unit: 'шт',
     image: 'https://m.media-amazon.com/images/I/41JKm9vYfSL._SL500_.jpg',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: false,
     quantity: 1,
@@ -123,10 +123,10 @@ export const products = [
   {
     id: 7,
     name: 'Ночник декор',
-    price: '9500',
+    price: '5500',
     unit: 'шт',
     image: '../public/image/product/nochnik.jpg',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: false,
     quantity: 1,
@@ -138,10 +138,10 @@ export const products = [
   {
     id: 8,
     name: 'Мини блендер',
-    price: '7200',
+    price: '3200',
     unit: 'шт',
     image: 'https://avatars.mds.yandex.net/i?id=5f0a7dd646c42efc1c932016ab5f479ba8877aa7-8400759-images-thumbs&n=13',
-    hasDiscount: true,
+    hasDiscount: false,
     isNew: true,
     bestseller: false,
     quantity: 1,
@@ -190,21 +190,6 @@ export const parentCategory = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const category = [
   {
     id: 1,
@@ -216,38 +201,8 @@ export const category = [
 export const subCategory = [
   {
     id: 1,
-    name: 'Для ванны',
+    name: 'На все продукты  ',
     categoryID: 24
-  },
-  {
-    id: 2,
-    name: 'Для раковины',
-    categoryID: 24
-  },
-  {
-    id: 3,
-    name: 'Для душа',
-    categoryID: 24
-  },  
-  {
-    id: 4,
-    name: 'Стойки для душа',
-    categoryID: 24
-  },
-  {
-    id: 5,
-    name: 'Сливые',
-    categoryID: 27
-  },
-  {
-    id: 6,
-    name: 'Наливные',
-    categoryID: 27
-  },
-  {
-    id: 7,
-    name: 'поливочные',
-    categoryID: 27
   },
 ]
 
