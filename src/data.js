@@ -12,7 +12,7 @@ export const products = [
     parentCategoryID: 1,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ export const products = [
     parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
   {
     id: 4,
@@ -54,10 +54,10 @@ export const products = [
     isNew: true,
     bestseller: true,
     quantity: 1,
-    parentCategoryID: 3,
+    parentCategoryID: 2,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const products = [
     parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ export const products = [
     parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
   {
     id: 6,
@@ -102,7 +102,7 @@ export const products = [
     parentCategoryID: 5,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ export const products = [
     parentCategoryID: 6,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
 
   {
@@ -133,7 +133,7 @@ export const products = [
     parentCategoryID: 5,
     categoryID: null,
     subCategoryID: null,
-    path: 'nochnik.html'
+    path: ''
   },
   {
     id: 8,
@@ -145,7 +145,7 @@ export const products = [
     isNew: true,
     bestseller: false,
     quantity: 1,
-    parentCategoryID: 4,
+    parentCategoryID: 3,
     categoryID: null,
     subCategoryID: null,
     path: 'blender.html'
@@ -168,11 +168,6 @@ export const parentCategory = [
     id: 3,
     name: 'Электроника',
     image: "https://avatars.mds.yandex.net/i?id=cebe42270b49a84de197fbab3e111f064020b269-8554591-images-thumbs&n=13"
-  },
-  {
-    id: 4,
-    name: 'Для детей',
-    image: "https://avatars.mds.yandex.net/i?id=ab004cd1cef19238aae2950672608f68d8e37bda-10703615-images-thumbs&n=13"
   },
   {
     id: 5,
