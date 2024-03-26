@@ -150,6 +150,36 @@ export const products = [
     subCategoryID: null,
     path: 'blender.html'
   },
+  {
+    id: 9,
+    name: 'Ночник коран',
+    price: '8500',
+    unit: 'шт',
+    image: 'https://avatars.mds.yandex.net/i?id=894b35e2357d1614694f71b414a8880e65e0b06d-10126262-images-thumbs&n=13',
+    hasDiscount: false,
+    isNew: true,
+    bestseller: false,
+    quantity: 1,
+    parentCategoryID: 3,
+    categoryID: null,
+    subCategoryID: null,
+    path: 'blender.html'
+  },
+  {
+    id: 10,
+    name: 'Ночник беспроводная зарядка с колонкой',
+    price: '5000',
+    unit: 'шт', 
+    image: 'https://avatars.mds.yandex.net/i?id=5bfa75f745f4dc14f14d1d8b72abc48d619a6acc-9706559-images-thumbs&ref=rim&n=33&w=204&h=250',
+    hasDiscount: false,
+    isNew: true,
+    bestseller: false,
+    quantity: 1,
+    parentCategoryID: 3,
+    categoryID: null,
+    subCategoryID: null,
+    path: 'nochnik_kol.html'
+  },
 ];
 
 
