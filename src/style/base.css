@@ -48,6 +48,9 @@ p {
 button, a {
   cursor: pointer;
 }
+a {
+  color: #FFFFFF;
+}
 
 button {
   border: 1px solid var(--black);
