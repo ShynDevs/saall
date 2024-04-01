@@ -214,6 +214,11 @@
       overflow: hidden;
     }
   }
+
+  .product-image {
+    width: 140px;
+    height: 180px;
+  }
 }
 
 @media screen and (max-width: 500px) {
